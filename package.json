@@ -5,11 +5,17 @@
   "main": "quokka.js",
   "dependencies": {
     "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "lodash": "^4.17.10",
-    "ramda": "^0.25.0"
+    "ramda": "^0.25.0",
+    "regex": "^0.1.1",
+    "yup": "^0.25.1"
   },
   "quokka": {
     "babel": true
+  },
+  "babel": {
+    "plugins": ["transform-object-rest-spread"]
   },
   "devDependencies": {},
   "scripts": {
