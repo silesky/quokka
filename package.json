@@ -9,15 +9,23 @@
     "lodash": "^4.17.10",
     "ramda": "^0.25.0",
     "regex": "^0.1.1",
+    "yamljs": "^0.3.0",
     "yup": "^0.25.1"
   },
   "quokka": {
     "babel": true
   },
   "babel": {
-    "plugins": ["transform-object-rest-spread"]
+    "plugins": [
+      "transform-object-rest-spread",
+      "transform-flow-strip-types"
+    ]
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "eslint": "^5.0.1",
+    "eslint-plugin-flowtype": "^2.49.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
