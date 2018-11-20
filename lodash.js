@@ -4,3 +4,4 @@ const cl = console.log;
 const R = require('ramda');
 const _ = require('lodash');
 const yup = require('yup');
+const foo = "foo"
