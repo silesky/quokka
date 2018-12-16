@@ -6,6 +6,7 @@
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "flat": "^4.1.0",
     "flowtype": "^2.0.0",
     "jq-in-the-browser": "^0.7.2",
     "lodash": "^4.17.10",
