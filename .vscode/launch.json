@@ -9,7 +9,7 @@
       "type": "node",
       "request": "launch",
       "name": "NodeJS: debug",
-      "program": "${workspaceFolder}/src/index.js",
+      "program": "${workspaceFolder}/${relativeFile}",
       "args": ["--inspect"]
     }
   ]

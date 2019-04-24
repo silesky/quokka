@@ -1,7 +1,6 @@
 module.exports = {
   plugins: ['flowtype'],
   parserOptions: {
-    ecmaVersion: 9,
     sourceType: 'module',
     experimentalObjectRestSpread: true,
   },
@@ -12,5 +11,6 @@ module.exports = {
     browser: true,
     node: true,
     commonjs: true,
+
   },
 };
