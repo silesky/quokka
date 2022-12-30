@@ -7,7 +7,7 @@
     "async-delay-queue": "^1.0.11",
     "babel-core": "^6.26.3",
     "better-queue": "^3.8.10",
-    "flat": "^4.1.0",
+    "flat": "^5.0.1",
     "flowtype": "^2.0.0",
     "fluture": "^10.3.0",
     "fuzzysort": "^1.1.4",
